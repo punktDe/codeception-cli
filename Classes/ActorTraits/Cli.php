@@ -13,16 +13,18 @@ trait Cli {
 
     /**
      * @Given I run shell command :command
+     * @param string $command
      */
-    public function iRunShellCommand($command)
+    public function iRunShellCommand(string $command): void
     {
         $this->runShellCommand($command);
     }
 
     /**
      * @Given the exit status should be :status
+     * @param int $status
      */
-    public function theExitStatusShouldBe($status)
+    public function theExitStatusShouldBe(int $status): void
     {
         $this->seeResultCodeIs($status);
     }
