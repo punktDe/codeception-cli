@@ -1,7 +1,7 @@
 {
     "description": "This package provides gerhkin step definitions for cli for codeception testing",
     "name": "punktde/codeception-cli",
-    "license": "GPL-3.0-or-later",
+    "license": "MIT",
     "require": {
         "codeception/codeception": "^5.0",
         "codeception/module-cli": "^2.0"
